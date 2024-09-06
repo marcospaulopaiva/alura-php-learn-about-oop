@@ -7,7 +7,10 @@ class Filme {
         public readonly string $nome, 
         public readonly int $anoLancamento, 
         public readonly Genero $genero,
-        public readonly int $duracaoEmMinutos)
+        public readonly int $temporadas,
+        public readonly int $episodiosPorTemporada,
+        public readonly int $minutosPorEpisodio
+        )
     {
         $this->notas = [];
     }
